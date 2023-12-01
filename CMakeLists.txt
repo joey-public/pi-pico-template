@@ -2,7 +2,8 @@ cmake_minimum_required(VERSION 3.13)
 
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_CXX_STANDARD 17)
-set(PICO_BOARD pico_w)
+#set(PICO_BOARD pico)  #if using the base pico board
+set(PICO_BOARD pico_w) #if using the pico w board 
 set(PICO_PLATFORM rp2040)
 set(PICO_COMPILER pico_arm_gcc)
 
